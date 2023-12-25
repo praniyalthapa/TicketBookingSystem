@@ -28,7 +28,7 @@ module.exports = (sequelize, DataTypes) => {
       allowNull:false,
       defaultValue:1
     },
-    totalCost:{
+    totalCost:{          //we usually don't collect totalcost from frontend if we even collect then we have to check something in service layer
       type:DataTypes.INTEGER,
       allowNull:false,
       defaultValue:0
